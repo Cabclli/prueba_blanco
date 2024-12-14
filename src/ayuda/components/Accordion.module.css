@@ -1,0 +1,20 @@
+.container {
+  padding: 10%;
+}
+
+.accordionContainer {
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgb(136, 136, 136);
+}
+
+.expandIcon {
+  color: #285b99;
+}
+
+.accordionTitle {
+  color: #285b99;
+}
+
+.accordionText {
+  color: #525252;
+}

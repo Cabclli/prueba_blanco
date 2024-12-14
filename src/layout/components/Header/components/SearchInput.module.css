@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  height: 56px;
+  border-radius: 15px;
+  padding-right: 10px;
+}
+
+.searchIcon {
+  color: #285b99;
+  font-size: 26px;
+}
+
+.resultsContainer {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 10;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.noResults {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.resultItem {
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.resultItem:hover {
+  color: #fff;
+  background-color: #285b99;
+}
+
+.selectedItem {
+  color: #285b99;
+}
